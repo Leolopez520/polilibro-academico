@@ -330,7 +330,7 @@ export const sectionContent: Record<
               {Array.from({ length: u.count }, (_, i) => (
                 <a
                   key={i}
-                  href={`https://escomisr.github.io/Libro_Digital_SO/${u.base}${i + 1}.html`}
+                  href={`#`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-3 py-1.5 rounded-md bg-primary/10 text-primary text-xs font-mono hover:bg-primary/20 transition-colors border border-primary/20"
@@ -349,14 +349,27 @@ export const sectionContent: Record<
     body: (
       <div className="space-y-4">
         <p>
-          Prácticas de código y programación diseñadas para aplicar los
-          conceptos teóricos en entornos reales de sistemas operativos.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
         </p>
         <div className="bg-background/30 rounded-lg p-4 border border-border/30">
           <p className="text-sm text-muted-foreground">
-            Las prácticas de laboratorio se encuentran distribuidas a lo largo
-            de las 6 unidades temáticas. Consulta cada unidad para acceder a los
-            ejercicios correspondientes.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
       </div>
@@ -367,11 +380,8 @@ export const sectionContent: Record<
     body: (
       <div className="space-y-4">
         <p>
-          <strong className="text-foreground">
-            El pulso silencioso de los sistemas operativos
-          </strong>{" "}
-          © 2026 por Israel Salas Ramírez, Benjamín Cruz Torres, Hermelinda
-          Patricia Leyva López.
+          <strong className="text-foreground">Teoría Computacional</strong> ©
+          2026 por Luis Enrique Hernandez Olvera.
         </p>
         <p>
           Licenciado bajo{" "}
